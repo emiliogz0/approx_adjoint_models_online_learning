@@ -1,0 +1,10 @@
+# Track only the code (.py / .ipynb) of each case study -- no data, trained models or figures
+/*
+!/.gitignore
+!/hybrid_l63/
+/hybrid_l63/**
+!/hybrid_l63/**/
+!/hybrid_l63/**/*.py
+!/hybrid_l63/**/*.ipynb
+**/__pycache__/
+**/.ipynb_checkpoints/
